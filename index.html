@@ -12,57 +12,149 @@
 
 <body>
     <div class="organic">
-        <!-- Navbar -->
-        <nav class="container relative mx-auto py-6">
-            <!-- Fex container -->
-            <div class="flex items-center justify-between font-roboto">
-                <!-- Logo -->
-                <div>
-                    <img src="./images/logo.png" alt="" />
-                </div>
+        <div class="container m-auto">
+            <!-- Navbar -->
+            <nav class="relative py-6">
+                <!-- Fex container -->
+                <div class="flex items-center justify-between font-roboto">
+                    <!-- Logo -->
+                    <div>
+                        <img class="cursor-pointer" src="./images/logo.png" alt="" />
+                    </div>
 
-                <!-- Menu itmes -->
-                <div class="text-[20px] text-organ-main">
-                    <a href="#" class="m-4 hover:text-organ-green">Home</a>
-                    <a href="#" class="m-4 hover:text-organ-green">About Us</a>
-                    <a href="#" class="m-4 hover:text-organ-green">Shop</a>
-                    <a href="#" class="m-4 hover:text-organ-green">Contact Us</a>
-                </div>
+                    <!-- Menu itmes -->
+                    <div class="text-[20px] text-organ-main">
+                        <a href="#" class="m-4 hover:text-organ-green">Home</a>
+                        <a href="#" class="m-4 hover:text-organ-green">About Us</a>
+                        <a href="#" class="m-4 hover:text-organ-green">Shop</a>
+                        <a href="#" class="m-4 hover:text-organ-green">Contact Us</a>
+                    </div>
 
-                <!-- Basket -->
-                <div class="font-roboto p-2">
-                    <div class="flex items-center justify-between border-2 rounded-full p-2">
-                        <div class="rounded-full bg-organ-main text-white text-center">
-                            <i class="fa-solid fa-cart-shopping p-3"></i>
+                    <!-- Basket -->
+                    <div class="font-roboto p-2">
+                        <div class="flex items-center justify-between border-2 rounded-full p-2">
+                            <div class="rounded-full bg-organ-main text-white text-center">
+                                <i class="fa-solid fa-cart-shopping p-3 cursor-pointer"></i>
+                            </div>
+                            <p class="text-organ-main ml-4 mr-3 text-sm cursor-pointer">
+                                Cart 0
+                            </p>
                         </div>
-                        <p class="text-organ-main ml-4 mr-3 text-sm">Cart 0</p>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
 
-        <!-- Header -->
-        <header class="container m-auto bg-no-repeat bg-cover" style="background-image: url('./images/header-bg.png')">
-            <div class="py-[220px] text-left">
-                <p class="font-yellowtail text-[36px] text-organ-green pb-3">
-                    Made With Nature
-                </p>
-                <h2 class="text-organ-main text-[60px] font-bold font-roboto mr-[60rem] leading-tight pb-7">
-                    Welcome to the world of nature and organic.
-                </h2>
+            <!-- Header -->
+            <header class="container bg-no-repeat bg-cover" style="background-image: url('./images/header-bg.png')">
+                <div class="py-[220px] text-left">
+                    <p class="font-yellowtail text-[36px] text-organ-green pb-3">
+                        Made With Nature
+                    </p>
+                    <h2 class="text-organ-main text-[60px] font-bold font-roboto leading-tight pb-7">
+                        Welcome to the <br /> world of nature <br /> and organic.
+                    </h2>
 
-                <a href="#" class="bg-organ-button text-organ-main pl-5 pr-3 py-5 rounded font-roboto text-sm">Explore Now
-            <div
-              class="bg-organ-button-in text-white rounded-full inline-block ml-4 text-[12px]"
-            >
-              <i class="fa-solid fa-arrow-right p-[6px]"></i>
-            </div>
-          </a>
-            </div>
-        </header>
+                    <a href="#" class="bg-organ-button text-organ-main pl-5 pr-3 py-5 rounded font-roboto text-sm">Explore Now
+              <div
+                class="bg-organ-button-in text-white rounded-full inline-block ml-4 text-[12px]"
+              >
+                <i class="fa-solid fa-arrow-right p-[6px]"></i>
+              </div>
+            </a>
+                </div>
+            </header>
 
-        <!-- Slider Section -->
-        <section></section>
+            <!-- Slider Section -->
+            <section class="py-36">
+                <div class="container">
+                    <!-- Slider items group-->
+                    <div class="flex items-center justify-between">
+                        <div class="relative">
+                            <img class="cursor-pointer" src="./images/silde-1.png" alt="" />
+                            <div class="absolute top-0 left-[55px] text-white py-[105px]">
+                                <p class="font-yellowtail text-[36px]">Natural!!</p>
+                                <h2 class="font-roboto text-[40px] leading-tight">
+                                    Get Garden <br /> Fresh fruits
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="relative">
+                            <img class="cursor-pointer" src="./images/slide-2.png" alt="" />
+                            <div class="absolute top-0 left-[55px] text-white py-[105px]">
+                                <p class="font-yellowtail text-[36px] text-organ-green">
+                                    Offer!!
+                                </p>
+                                <h2 class="font-roboto text-[40px] leading-tight text-organ-main">
+                                    Get 10% off<br /> on Vegetables
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Us -->
+            <section class="about-us py-36 bg-[#F9F8F8]">
+                <div class="container">
+                    <div class="flex justify-between">
+                        <div class="w-full">
+                            <!-- left content -->
+                            <img class="w-full" src="./images/about-bg.png" alt="" />
+                        </div>
+                        <!-- right content -->
+                        <div>
+                            <h4 class="text-organ-green font-yellowtail text-[36px]">
+                                About Us
+                            </h4>
+                            <h2 class="font-roboto font-bold text-organ-main text-[45px] leading-tight pb-5">
+                                We Belive In Organic <br /> Foods for Strong Health
+                            </h2>
+                            <p class="text-sm font-roboto pb-14 leading-8 text-[#525C60] font-opensans">
+                                Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition.
+                            </p>
+                            <!-- Food description -->
+                            <div class="pb-11">
+                                <div class="flex items-center py-4">
+                                    <div>
+                                        <i class="fa-brands fa-apple fa-2x text-organ-green rounded-3xl px-8 py-7 mr-5 bg-white"></i>
+                                    </div>
+                                    <div class="mr-5">
+                                        <h4 class="text-[25px] font-roboto text-organ-main">
+                                            Organic Foods Only
+                                        </h4>
+                                        <p class="text-sm text-[#525C60] leading-8 font-opensans">
+                                            The Product that you ordered will be verified that we have or not if have we will start to move on with the next step.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center py-4">
+                                    <div>
+                                        <i class="fa-solid fa-lemon fa-2x text-organ-green rounded-3xl px-8 py-7 mr-5 bg-white"></i>
+                                    </div>
+                                    <div class="mr-5">
+                                        <h4 class="text-[25px] font-roboto text-organ-main">
+                                            Quality Standarts
+                                        </h4>
+                                        <p class="text-sm text-[#525C60] leading-8 font-opensans">
+                                            Once your product is packed it will be delivered to your nearby locality you can directly visit the to buy the produsct.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="bg-organ-main text-white pl-5 pr-3 py-5 rounded-lg font-roboto text-sm">Shop Now
+                  <div
+                    class="bg-organ-button-in text-white rounded-full inline-block ml-4 text-[12px]"
+                  >
+                    <i class="fa-solid fa-arrow-right p-[6px]"></i>
+                  </div>
+                </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
 </body>
 

@@ -7,6 +7,7 @@ module.exports = {
         fontFamily: {
             roboto: ['"Roboto"', '"sans-serif"'],
             yellowtail: ['"Yellowtail"', '"cursive"'],
+            opensans: ['"Open Sans", "sans-serif"'],
         },
         backgroundImage: {
             "header-bg": "url('./images/header-bg.png')",
